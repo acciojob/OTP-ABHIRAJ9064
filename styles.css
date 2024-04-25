@@ -1,29 +1,31 @@
-.h1{
-	text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+div{
+	display:flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : center;
+}
+body{
+	margin : 0;
+	padding : 0;
+	font-family: "Noto Sans", sans-serif;
+}
+input{
+	padding : 28px;
+	padding-left : 40px;
+	width : 10%;
+	height : 65px;
+	border : 2px solid #f1f1f1;
+	border-radius : 6px;
+	font-size : 3rem;
+	color : #757575;
+	/* background-color : #f9f9f9; */
+}
+input:focus{
+	outline : none;
+	/* border : 2px solid #f1f1f1 !important; */
+}
+	footer{
+		margin-top : 48px;
+		background-color : #eaeaea;
 	}
-.p1{
-	text-align: center;
-}
-.p2{
-	text-align: center;
-    border: 4px solid  #F1F1F1;
-	background-color:   #F1F1F1;
-	padding: 5px;
-}
-	
-.flex-container {
-  display: flex;
-}
-.flex-container > div {
-  background-color: #F1F1F1;	
-  margin: 30px;
-  padding: 15px;
-  font-size: 40px;
-}
-.h1 {
-  width: 700px;
-  height: 400px;  
-  padding: 10px;
-  border: 2px solid black;
-  box-sizing: border-box;
-}
